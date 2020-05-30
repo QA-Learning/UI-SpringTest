@@ -30,7 +30,7 @@ public class JuiceShopTest {
             e.printStackTrace();
         }
         driver.manage().window().maximize();
-        driver.get("http://localhost:3000/#/register");
+        driver.get("http://juice-shop:3000/#/register");
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//*[@id=\"mat-dialog-0\"]/app-welcome-banner/div/div[2]/button[2]")).click();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
