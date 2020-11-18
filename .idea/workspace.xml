@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65c73650-4089-4261-8c04-d7ec457b88ad" name="Default Changelist" comment="" />
+    <list default="true" id="65c73650-4089-4261-8c04-d7ec457b88ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JuiceShopTestAutomation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JuiceShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JuiceShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/juiceshop_e2e.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,19 +18,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ccWLpSnNpFJXYYV9DXznDRlkPr" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qa.bootcamp.elements" />
+      <recent name="com.qa.bootcamp.setup" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,7 +56,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.juiceshop_e2e.register">
+  <component name="RunManager" selected="JUnit.JuiceShopTest">
+    <configuration name="JuiceShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuiceShopTestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JuiceShopTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JuiceShopTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JuiceShopTestAutomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JuiceShopTest" />
+      <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="juiceshop_e2e" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JuiceShopTestAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,6 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JuiceShopTest" />
+        <item itemvalue="JUnit.JuiceShopTest.register" />
         <item itemvalue="TestNG.juiceshop_e2e.register" />
         <item itemvalue="TestNG.juiceshop_e2e" />
       </list>
@@ -80,10 +120,42 @@
       <updated>1590828308742</updated>
       <workItem from="1590828313809" duration="1863000" />
       <workItem from="1590830619678" duration="661000" />
+      <workItem from="1591270055393" duration="8756000" />
+      <workItem from="1604493916036" duration="2576000" />
+      <workItem from="1605700121891" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/bootcamp/setup/BaseTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/qa/bootcamp/factory/DriverFactory.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
